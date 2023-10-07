@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 		else if(answer=30) {
 			printf("congratulation!!\n");
 	      }
-	    else{
+	    else if(answer > 30){
 	    	printf("down!\n");
 		}
 	  }
