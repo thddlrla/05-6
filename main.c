@@ -15,13 +15,14 @@ int main(int argc, char *argv[]) {
 		if(answer < 30){
 			printf("up!\n");
 		}
-		else if(answer=30) {
-			printf("congratulation!!\n");
+		else if(answer>30) {
+			printf("down!\n");
 	      }
-	    else if(answer > 30){
-	    	printf("down!\n");
+	    else if(answer == 30){
+	    	printf("congratulation!\n");
 		}
 	  }
+	  
 	while(answer != 30);	
          
 
